@@ -1,6 +1,7 @@
 class Solution {
 public:
     int hammingDistance(int x, int y) {
+        
         int binx[32],biny[32];
         memset(binx,0,sizeof(binx));
         memset(biny,0,sizeof(biny));
